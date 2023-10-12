@@ -4,6 +4,8 @@ import org.example.bankServices.entities.Account;
 import org.example.bankServices.entities.Customer;
 import org.example.bankServices.entities.Transaction;
 
+import java.math.BigDecimal;
+
 public interface bankingServices {
     Transaction credit();
 
@@ -13,4 +15,5 @@ public interface bankingServices {
     Customer withdraw();
     void escalate();
     String complaits();
+    BigDecimal invest();
 }

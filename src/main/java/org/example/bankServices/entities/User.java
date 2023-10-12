@@ -1,6 +1,7 @@
 package org.example.bankServices.entities;
 
 import org.example.bankServices.enums.Gender;
+import org.example.bankServices.enums.Marrital;
 
 import java.time.LocalDate;
 
@@ -13,6 +14,8 @@ public abstract class User{
     private Address address;
     private Long phone;
     private Long bvn;
+
+    private Marrital status;
 
 
 }
