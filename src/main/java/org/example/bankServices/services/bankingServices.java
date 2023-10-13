@@ -14,6 +14,6 @@ public interface bankingServices {
     Customer deposit();
     Customer withdraw();
     void escalate();
-    String complaits();
+    String complaints();
     BigDecimal invest();
 }
